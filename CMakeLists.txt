@@ -52,6 +52,7 @@ endif()
 # static settings
 if(BUILD_STATIC_LIBS OR WIN32)
   set(LINKAGE STATIC)
+  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC")
   # Force CMake to find static libs
   if(WIN32)
     SET(CMAKE_FIND_LIBRARY_SUFFIXES .lib .a ${CMAKE_FIND_LIBRARY_SUFFIXES})
