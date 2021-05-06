@@ -1,5 +1,5 @@
 <h1 align="center">
-  Amazon Kinesis Video Streams C WebRTC SDK
+  Amazon Kinesis Video Streams C WebRTC SDK FORK by Vizzon
   <br>
 </h1>
 
